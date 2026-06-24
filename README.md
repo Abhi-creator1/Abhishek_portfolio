@@ -1,86 +1,98 @@
-# Developer Portfolio Template 🚀
+# Abhishek Thakur — Robotics Portfolio
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+Personal portfolio website for showcasing my work in mechatronics, robotics,
+embedded systems, robot learning, computer vision, and intelligent automation.
 
-## What is this?
+## Live Website
 
-This simple portfolio template is designed to showcase your past projects, career history, skill sets, and more.
+[abhi-creator1.github.io/Abhishek_portfolio](https://abhi-creator1.github.io/Abhishek_portfolio/)
 
-View the [Demo](https://yujisatojr.github.io/react-portfolio-template/).
+## About Me
 
-**This template is free to use, and no attribution is required.** You can fork or download this repository to customize it for your own use. Please don't forget to leave a ⭐ if you like this portfolio!
+I am a Mechatronics and Robotics master's student based in Germany. My work
+combines robotics software, control, simulation, embedded development, machine
+learning, and rapid prototyping.
 
-![screenshot](./src/assets//images/screenshot.png)
+## Featured Work
 
-## Features
+- Remote Robotics Training Platform with ROS 2 and CrossLab integration
+- Curriculum-based Soft Actor-Critic learning for 7-DOF manipulation
+- Imitation-learning fruit sorting robot
+- Autonomous navigation and sensor fusion on the Unitree Go1
+- LLM-controlled UR5e collaborative robot
+- Disaster-response unmanned ground vehicle
 
-✅ Open source (free to use, no attribution required)  
-✅ Responsive design & mobile-friendly  
-✅ Supports both dark and light modes  
-✅ Highly customizable multi-component layout  
-✅ Built with modern technologies (React, TypeScript, JavaScript, and SCSS)  
+## Technologies
 
-## Quick Setup
+- React and TypeScript
+- Material UI and Font Awesome
+- SCSS
+- GitHub Actions
+- GitHub Pages
 
-1. Ensure you have [Node.js](https://nodejs.org/) installed. Check your installation by running:
+## Run Locally
 
-    ```bash
-    node -v
-    ```
+Install the dependencies:
 
-2. In the project directory, install dependencies:
+```bash
+npm install
+```
 
-    ```bash
-    npm install
-    ```
+Start the development server:
 
-3. Start the development server:
+```bash
+npm start
+```
 
-    ```bash
-    npm start
-    ```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-4. Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
+## Production Build
 
-5. Customize the template by navigating to the `/src/components` directory. Modify texts, pictures, and other information as needed.
+```bash
+npm run build
+```
 
-The page will reload if you make edits, and you will see any lint errors in the console.
+The optimized website will be generated in the `build` directory.
 
-If you are interested in creating a mockup image like the ones from the personal projects section, I recommend [Genmoo](https://gemoo.com/tools/browser-mockup-generator/). This website lets you generate sleek looking browser mockups for free.
+## Project Media
+
+Project images and videos are organized under:
+
+```text
+src/assets/project-media/
+├── remote-robotics-training-platform/
+├── curriculum-sac-7dof-manipulation/
+├── fruit-sorting-robot/
+├── unitree-go1-navigation/
+├── llm-controlled-ur5e/
+└── disaster-response-robot/
+```
+
+Recommended formats:
+
+- Images: WebP, PNG, or JPEG
+- Videos: MP4
 
 ## Deployment
 
-You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/), [Render](https://render.com/), [Heroku](https://www.heroku.com/)) for deployment. One of the easiest ways to host this portfolio is using GitHub Pages. Follow the instructions below for a production deploy.
+The website deploys automatically through GitHub Actions whenever changes are
+pushed to the `master` branch.
 
-1. **Set Up GitHub Repository**
+The deployment workflow is located at:
 
-    Create a new repository on GitHub for your portfolio app.
+```text
+.github/workflows/deploy-pages.yml
+```
 
-2. **Configure `package.json`**
+GitHub Pages must use **GitHub Actions** as its deployment source in the
+repository settings.
 
-    Edit the following properties in your `package.json` file:
+## Contact
 
-    ```json
-    {
-        "homepage": "https://yourusername.github.io/your-repo-name",
-        "scripts": {
-            "predeploy": "npm run build",
-            "deploy": "gh-pages -d build",
-            ...
-        }
-    }
-    ```
+- [LinkedIn](https://www.linkedin.com/in/abhishek-thakur85/)
+- [GitHub](https://github.com/Abhi-creator1)
+- Email: [abhisheksthakur85@gmail.com](mailto:abhisheksthakur85@gmail.com)
 
-    Replace `yourusername` with your GitHub username and `your-repo-name` with the name of your GitHub repository.
+## License
 
-3. **Deploy to GitHub Pages**
-
-    Run the following command to deploy your app:
-
-    ```bash
-    npm run deploy
-    ```
-
-4. **Access Your Deployed App**
-
-    After successfully deploying, you can access your app at `https://yourusername.github.io/your-repo-name`.
+This project is available under the [MIT License](LICENSE).
