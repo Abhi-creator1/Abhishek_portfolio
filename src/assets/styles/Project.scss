@@ -4,46 +4,82 @@
     padding: 5% 10%;
     text-align: left;
 }
-  
+
+.projects-intro {
+    max-width: 800px;
+    margin: 0 0 40px;
+    line-height: 1.7;
+}
+
 .projects-container .projects-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
 }
-  
+
 .projects-container .projects-grid .project {
+    padding-bottom: 20px;
     text-align: left;
 }
-  
-.project h2:hover {
-    text-decoration: underline;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-}
-  
-.zoom {
-    border-radius: 5px;
-    transition: transform .2s;
-    margin: 0 auto;
-}
-  
-.zoom:hover {
-    transform: scale(1.05);
+
+.project-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 230px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+    background:
+        linear-gradient(135deg, rgba(80, 0, 202, 0.8), rgba(15, 23, 42, 0.9)),
+        radial-gradient(circle at top right, rgba(255, 255, 255, 0.2), transparent 45%);
+    color: white;
+    text-align: center;
+    transition: transform .2s, border-color .2s;
 }
 
-@media screen {
-    @media (max-width: 700px) {
-        .projects-container {
-            display: block;
-            padding-left: 5%;
-            padding-right: 5%;
-        }
-  
-        .projects-container .projects-grid {
-            display: block;
-        }
-      
-        .projects-container .projects-grid .project {
-            padding-bottom: 5%;
-        }
+.project-media:hover {
+    transform: translateY(-4px);
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+.project-period {
+    margin: 20px 0 8px;
+    color: #bda1ff;
+    font-size: 0.9rem;
+}
+
+.project h2 {
+    margin: 0 0 12px;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
+}
+
+.project-tags span {
+    padding: 5px 10px;
+    border-radius: 999px;
+    background: white;
+    color: rgb(39, 40, 34);
+    font-size: 0.78rem;
+}
+
+@media screen and (max-width: 700px) {
+    .projects-container {
+        display: block;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .projects-container .projects-grid {
+        display: block;
+    }
+
+    .projects-container .projects-grid .project {
+        padding-bottom: 12%;
     }
 }

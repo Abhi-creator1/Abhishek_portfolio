@@ -1,48 +1,50 @@
-.contact_wrapper svg {
-  font-size: 1em;
-  vertical-align: middle;
-  margin-right: 5px;
+.contact_wrapper {
+  max-width: 900px;
 }
 
-.contact-form {
-  padding-top: 20px;
-
-  button {
-    float: right;
-    background-color: white;
-    color: #050f0b;
-  }
-
-  button:hover {
-    background-color: #5000ca;
-    color: white;
-  }
-
-  fieldset {
-    background-color: white;
-  }
+.contact_wrapper > p {
+  max-width: 760px;
+  line-height: 1.7;
 }
 
-label {
-  font-size: 1.2rem;
-  font-family: 'DomaineDispNar-Medium', sans-serif;
-}
-
-.form-flex {
+.contact-links {
   display: flex;
-  gap: 15px;
-  padding-bottom: 15px;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 30px;
 }
 
-.form-flex .MuiFormControl-root {
-  width: 100%;
+.contact-links a,
+.contact-links span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+  transition: background-color .2s, border-color .2s, transform .2s;
 }
 
-form {
-  width: 100% !important;
+.contact-links a:hover {
+  transform: translateY(-2px);
+  border-color: white;
+  background-color: #5000ca;
 }
 
-.body-form {
-  width: 100% !important;
-  margin-bottom: 15px !important;
+.contact-links svg {
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 567px) {
+  .contact-links {
+    flex-direction: column;
+  }
+
+  .contact-links a,
+  .contact-links span {
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
