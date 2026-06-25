@@ -1,7 +1,14 @@
 import React from "react";
+import GitHubIcon from '@mui/icons-material/GitHub';
 import '../assets/styles/Project.scss';
 
 const projects = [
+    {
+        title: "Assistive Robot Hackathon",
+        period: "June 2026",
+        description: "An agentic robotic assistant that interprets natural-language voice and chat commands to plan, manipulate, deliver, and verify objects on the NormaCore Eirobot.",
+        technologies: ["Claude Agent SDK", "MCP", "Computer Vision", "HRI"]
+    },
     {
         title: "Remote Robotics Training Platform",
         period: "April 2025 - Present",
@@ -46,7 +53,8 @@ function Project() {
             <h1>Featured Projects</h1>
             <p className="projects-intro">
                 Selected robotics projects spanning control, simulation, robot learning,
-                perception, and embedded systems. Detailed media and repositories are coming next.
+                perception, and embedded systems. Project media and repository links are
+                being added.
             </p>
             <div className="projects-grid">
                 {projects.map((project) => (
@@ -61,6 +69,9 @@ function Project() {
                             {project.technologies.map((technology) => (
                                 <span key={technology}>{technology}</span>
                             ))}
+                        </div>
+                        <div className="project-link-pending" aria-label="GitHub repository link coming soon">
+                            <GitHubIcon /> Repository coming soon
                         </div>
                     </article>
                 ))}

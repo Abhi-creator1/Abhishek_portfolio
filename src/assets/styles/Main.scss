@@ -4,12 +4,12 @@
 
 .about-section {
     display: flex;
-    gap: 30px;
+    gap: 48px;
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-    padding: 0px 15%;
-    min-height: 700px;
+    padding: 80px 10% 30px 17%;
+    min-height: 650px;
     background-image: url("../images/bg-dark.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,9 +58,16 @@
 
 .about-section .image-wrapper {
     z-index: 2;
+
     img {
-        width: 150px;
-        border-radius: 50%;
+        display: block;
+        width: clamp(230px, 21vw, 315px);
+        height: 300px;
+        border: 1px solid rgba(255, 255, 255, 0.35);
+        border-radius: 18px;
+        object-fit: cover;
+        object-position: center;
+        box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
     }
 }
 
@@ -141,7 +148,8 @@
         }
 
         .about-section {
-            padding-top: 150px;
+            min-height: auto;
+            padding-top: 105px;
             display: block;
             padding-left: 0px;
             padding-right: 0px;
@@ -157,6 +165,11 @@
         .about-section .image-wrapper {
             padding-left: 5%;
             width: 100%;
+
+            img {
+                width: min(90%, 340px);
+                height: 280px;
+            }
         }
     }
 }

@@ -60,6 +60,7 @@ Project images and videos are organized under:
 
 ```text
 src/assets/project-media/
+├── assistive-robot-hackathon/
 ├── remote-robotics-training-platform/
 ├── curriculum-sac-7dof-manipulation/
 ├── fruit-sorting-robot/

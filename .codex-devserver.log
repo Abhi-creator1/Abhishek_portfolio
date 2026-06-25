@@ -15,4 +15,95 @@ Note that the development build is not optimized.
 To create a production build, use npm run build.
 
 webpack compiled [1m[32msuccessfully[39m[22m
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+No issues found.
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+No issues found.
+Failed to compile.
+
+Attempted import error: 'Timeline' is not exported from './components' (imported as 'Timeline').
+[1m[31mERROR[39m[22m in [1m./src/App.tsx[39m[22m [1m[32m48:37-45[39m[22m
+[1mexport 'Timeline' (imported as 'Timeline') was [1m[31mnot found[39m[22m[1m in './components' (possible exports: [1m[32mContact, Expertise, Footer, Main, Navigation, Project[39m[22m[1m)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/components/index.js[39m[22m [1m[32m7:0-49[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './Timeline' in 'D:\PROJECTS\Website\Abhishek_portfolio\src\components'[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+No issues found.
+Failed to compile.
+
+Attempted import error: 'Contact' is not exported from './components' (imported as 'Contact').
+[1m[31mERROR[39m[22m in [1m./src/App.tsx[39m[22m [1m[32m56:37-44[39m[22m
+[1mexport 'Contact' (imported as 'Contact') was [1m[31mnot found[39m[22m[1m in './components' (possible exports: [1m[32mExpertise, Footer, Main, Navigation, Project, Timeline[39m[22m[1m)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/components/index.js[39m[22m [1m[32m9:0-47[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './Contact' in 'D:\PROJECTS\Website\Abhishek_portfolio\src\components'[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+No issues found.
+Failed to compile.
+
+Module not found: Error: Can't resolve '../assets/styles/Contact.scss' in 'D:\PROJECTS\Website\Abhishek_portfolio\src\components'
+[1m[31mERROR[39m[22m in [1m./src/components/Contact.tsx[39m[22m [1m[32m10:0-39[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../assets/styles/Contact.scss' in 'D:\PROJECTS\Website\Abhishek_portfolio\src\components'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
 No issues found.
